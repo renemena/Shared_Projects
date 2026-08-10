@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+.idea/
+*.iml
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Kubernetes / Helm
+*.kubeconfig
+kubeconfig
+secrets.yaml
+secret.yaml
+values-secret.yaml
+charts/*.tgz
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+credentials*
+secrets*
+!SECURITY.md
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / backups
+*.log
+*.bak
+*.backup
+backup/
+backups/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Excel lock files
+~$*.xlsx
